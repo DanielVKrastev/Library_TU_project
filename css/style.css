@@ -1,0 +1,274 @@
+/* css for all */
+*{
+    margin: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    /*border: 1px solid red;*/
+    width: 75%;
+    margin: 2% 0 2% 15%;
+    padding: 0% 5% 1% 5%;
+    float: left;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    border: 1px solid #384b62;
+    background-color: #4b6584;
+    color: white;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.btn-update{
+    border: 1px solid #168148;
+    background-color: #20bf6b;
+    color: white;
+    min-width: 50px;
+    max-width: 100px;
+    margin: 5px 0 10px 0;
+}
+
+.btn-update:hover{
+    background-color: #168148;
+}
+
+.btn-delete{
+    border: 1px solid #b03048;
+    background-color: #eb3b5a;
+    color: white;
+    min-width: 50px;
+    max-width: 100px;
+    margin: 5px 0 10px 0;
+}
+
+.btn-delete:hover{
+    background-color: #b03048;
+}
+
+.btn-primary:hover{
+    background-color: #384b62;
+}
+
+.btn-orange{
+    border: 1px solid #dc722b;
+    background-color: #fa8231;
+    color: white;
+    width: 100px;
+}
+
+.btn-orange:hover{
+    background-color: #dc722b;
+}
+
+.success{
+    color: green;
+}
+
+.error{
+    color: red;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+select
+{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+/*css for menu*/
+.menu{
+    /*border: 1px solid red;*/
+    min-width: 15%;
+    max-width: 25%;
+    height: 100%;
+    background-color: #485460;
+    color: #d2dae2;
+    float: left;
+    position: fixed;
+}
+
+.menu a{
+    color: #d2dae2;
+}
+
+.menu ul{
+    margin: 10px 0px 10px 0px;
+    /*border: 1px solid black;*/
+    list-style-type: none;
+    display: left;
+}
+
+.btn-menu{
+    margin: 0px 0px 1px -40px;
+    padding: 15px;
+    font-size: 18px;
+  /*  border: 1px solid green;*/
+    display: block;
+}
+
+.btn-menu:hover{
+    background-color: #2F3D48;
+}
+
+/* css for content page*/
+.boxs{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.box{
+    border: 2px solid #778ca3;
+    background-color: #d1d8e0;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5);
+    width: 140px;
+    height: 100px;
+    margin: 20px;
+    float: left;
+}
+
+.box hr{
+    width: 80%;
+    margin: 0 auto;
+    border:1px solid #778ca3;
+}
+
+.box h1{
+    margin: 6px 0 6px 0;
+    color: #4b6584;
+}
+
+.box p{
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.box-2{
+    border: 1px solid #a3beda;
+    background-color: #e3eaf3;
+    float: left;
+    border-radius: 10px;
+    min-height: 220px;
+    padding: 10px;
+    margin: 10px;
+    width: 42%;
+}
+
+.box-1{
+    border: 1px solid #a3beda;
+    background-color: #e3eaf3;
+    float: block;
+    border-radius: 10px;
+    min-height: 220px;
+    padding: 10px;
+    margin: 30px;
+    width: 70%;
+}
+
+.boxs-content{
+    margin: 0 0 0 22%;
+    padding-bottom: 18%;
+}
+
+.footer{
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, #1e272e 0%, #222d36 100%);
+}
+
+@media only screen and (max-width:765px) {
+.content{
+    width: 74%;
+}    
+}
+
+
+/*css for table*/
+
+.tbl{
+    margin: 2% 0 0 4%;
+    border-collapse: collapse;
+}
+
+.overflow{
+    overflow-x: auto;
+}
+
+.tbl td, .tbl th{
+    max-width: 240px;
+    border: 1px solid #b7b7b7;
+    padding: 6px;
+}
+
+.tbl tr:nth-child(even){background-color: #f0f0f0;}
+
+.tbl tr:hover {background-color: #d1d8e0;}
+
+.tbl th{
+    padding: 12px 12px;
+    background-color: #d1d8e0;
+    color: #4b6584;
+}
+
+/*css for index.php*/
+.search{
+    margin: 20px 0 20px 0;
+    padding: 10px 0 30px 0;
+}
+
+.input-style{
+    width: 45%;
+    padding: 5px 2px;
+    margin: 8px 5px;
+    font-size: 1rem;
+    border: 1px solid #4b6584;
+    border-radius: 5px;
+}
+
+.rent-book select{
+    width: 250px;
+}
+
+/*css for create.php*/
+.create{
+    border: 1px solid #778ca3;
+    border-radius: 10px;
+    background-color: #d1d8e0;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5);
+    margin: 2% 1% 2% 0;
+    padding: 2%;
+    width: 40%;
+    height: 280px;
+    float: left;
+}
+
